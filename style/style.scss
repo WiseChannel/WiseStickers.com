@@ -1,0 +1,66 @@
+
+body {
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+header {
+  padding: 25px 0;
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-around;
+  }
+
+}
+
+#logoImgSize {
+  width: 150px;
+  height: auto;
+}
+
+.listSt  {
+
+  ul {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    position: relative;
+    top: 5px;
+  }
+
+  li {
+    padding: 0 15px;
+  }
+
+  a {
+    color: black;
+  }
+
+  a:hover {
+    color: lightgray;
+    text-decoration: none;
+  }
+
+}
+
+.basket {
+
+  i {
+    font-size: 20px;
+  }
+
+  a {
+    color: black;
+  }
+
+  a:hover {
+    color: lightgray;
+  }
+}

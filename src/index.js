@@ -4,11 +4,3 @@ import './index.css';
 import App from './App';
 
 
-
-    ReactDOM.render(
-        <div>
-            <h1>Hello Wise</h1>
-        </div>,
-        document.getElementById('app')
-    );
-
