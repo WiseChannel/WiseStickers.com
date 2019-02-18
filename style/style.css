@@ -1,73 +1,136 @@
 body {
-  box-sizing: border-box;
-  font-family: Helvetica; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Helvetica;
+  padding: 0;
+  margin: 0;
+}
 
 * {
-  box-sizing: border-box;
-  font-family: Helvetica; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Helvetica;
+  padding: 0;
+  margin: 0;
+}
 
-header {
-  padding: 25px 0; }
-  header .container {
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    justify-content: space-around; }
+header section .mainHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: white;
+  -webkit-box-shadow: 0 0 27px #CECECE;
+          box-shadow: 0 0 27px #CECECE;
+  width: 100%;
+  height: auto;
+  padding: 10px 25px;
+  margin: 25px 0 50px 0px;
+}
 
-#logoImgSize {
-  width: 150px;
-  height: auto; }
+header section .mainHeader .pageList {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 
-.listSt ul {
+header section .mainHeader .pageList ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+}
+
+header section .mainHeader .pageList ul a {
+  color: black;
+}
+
+header section .mainHeader .pageList ul a:hover {
+  border-bottom: solid 3px black;
+  text-decoration: none;
+  -webkit-transition: 0.5ms;
+  transition: 0.5ms;
+}
+
+header section .mainHeader .pageList ul a:not(:hover) {
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+header section .mainHeader .pageList ul li {
+  list-style-type: none;
+  padding: 0 10px;
+  font-size: 17px;
+}
+
+header section .mainHeader .headerLogo h1 {
+  font-weight: 100;
+  margin-bottom: 0;
+  cursor: pointer;
+  color: black;
+}
+
+header section .mainHeader .headerLogo a:hover {
   list-style-type: none;
   text-decoration: none;
+}
+
+header section .mainHeader .numberOfGoods {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  position: relative;
-  top: 5px; }
-.listSt li {
-  padding: 0 15px; }
-.listSt a {
-  color: black; }
-.listSt a:hover {
-  color: lightgray;
-  text-decoration: none; }
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 
-.basket i {
-  font-size: 20px; }
-.basket a {
-  color: black; }
-.basket a:hover {
-  color: lightgray; }
+header section .mainHeader .numberOfGoods i {
+  font-size: 20px;
+  color: black;
+}
 
-.blockOne {
-  background-color: #282c34;
-  width: 100px;
-  height: 350px; }
+header section .mainHeader .numberOfGoods #basketIcon
+i:hover {
+  font-size: 23px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
 
-.blockTwo {
-  background-color: grey;
-  width: 100px; }
+header section .mainHeader .numberOfGoods #bars {
+  cursor: pointer;
+}
 
-.blockThere {
-  background-color: #61dafb;
-  width: 100px; }
+header section .mainHeader .numberOfGoods i:not(:hover) {
+  -webkit-transition: 1s;
+  transition: 1s;
+}
 
-.firstSection {
-  text-align: center;
-  padding: 50px 0; }
-
-.twoSection {
-  text-align: center; }
-  .twoSection .row {
-    padding: 25px 0; }
-
-main article {
-  text-align: center;
-  padding: 25px 0; }
-
-footer {
+header section .mainHeader .numberOfGoods p {
+  margin-bottom: 0;
   background-color: lightgrey;
-  width: 100%;
-  height: 350px; }
-
+  border-radius: 50px;
+  padding: 3px;
+  margin: 3px;
+  width: 30px;
+  height: auto;
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */

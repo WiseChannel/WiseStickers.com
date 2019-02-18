@@ -2,112 +2,117 @@
 body {
   box-sizing: border-box;
   font-family: Helvetica;
+  padding: 0;
+  margin: 0;
 }
 
 * {
   box-sizing: border-box;
   font-family: Helvetica;
+  padding: 0;
+  margin: 0;
 }
 
 header {
-  padding: 25px 0;
-  .container {
+  section {
+    .mainHeader {
     display: flex;
     flex-direction: row;
-    align-items: baseline;
-    justify-content: space-around;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0 0 27px #CECECE;
+    width: 100%;
+    height: auto;
+    padding: 10px 25px;
+    margin: 25px 0 50px 0px;
+    
+    .pageList {
+      justify-content: center;
+      align-items: center;
+      display: flex;
+
+       ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+
+      a {
+        color: black;
+      }
+
+      a:hover {
+        border-bottom: solid 3px black;
+        text-decoration: none;
+        transition: 0.5ms;
+      }
+
+      a:not(:hover) {
+        transition: 1s;
+      }
+
+      
+
+      li {
+        list-style-type: none;
+        padding: 0 10px;
+        font-size: 17px;
+      }
+    }
+
+    }
+   
+    .headerLogo {
+
+       h1 {
+      font-weight: 100;
+      margin-bottom: 0;
+      cursor: pointer;
+      color: black;
+    }
+
+    a:hover {
+      list-style-type: none;
+      text-decoration: none;
+    }
+
+    }
+   
+    .numberOfGoods {
+      display: flex;
+      align-items: center;
+
+      i {
+        font-size: 20px;
+        color: black;
+      }
+
+      #basketIcon
+        i:hover {
+        font-size: 23px;
+        transition: 1s;
+      }
+
+      #bars {
+        cursor: pointer;
+      }
+
+      i:not(:hover) {
+        transition: 1s;
+      }
+
+      p {
+        margin-bottom: 0;
+        background-color: lightgrey;
+        border-radius: 50px;
+        padding: 3px;
+        margin: 3px;
+        width: 30px;
+        height: auto;
+        text-align: center;
+      }
+    }
+
+    }
   }
-
-}
-
-#logoImgSize {
-  width: 150px;
-  height: auto;
-}
-
-.listSt  {
-
-  ul {
-    list-style-type: none;
-    text-decoration: none;
-    display: flex;
-    position: relative;
-    top: 5px;
-  }
-
-  li {
-    padding: 0 15px;
-  }
-
-  a {
-    color: black;
-  }
-
-  a:hover {
-    color: lightgray;
-    text-decoration: none;
-  }
-
-}
-
-.basket {
-
-  i {
-    font-size: 20px;
-  }
-
-  a {
-    color: black;
-  }
-
-  a:hover {
-    color: lightgray;
-  }
-}
-
-.blockOne {
-  background-color: #282c34;
-  width: 100px;
-  height: 350px;
-}
-
-.blockTwo {
-  background-color: grey;
-  width: 100px;
-
-}
-
-.blockThere {
-  background-color: #61dafb;
-  width: 100px;
-
-}
-
-.firstSection {
-  text-align: center;
-  padding: 50px 0;
-}
-
-.twoSection {
-  text-align: center;
-
-  .row {
-    padding: 25px 0;
-  }
-}
-
-main article {
-  text-align: center;
-  padding: 25px 0;
-}
-
-footer {
-  background-color: lightgrey;
-  width: 100%;
-  height: 350px;
-
-}
-
-.test {
-  width: 100px;
 }
