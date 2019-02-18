@@ -1,13 +1,32 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
+
+    var test = [
+        'Ilya', 'Wise'
+    ];
 
 
-    ReactDOM.render (
-        <App></App>,
-        document.getElementById('bars')
-    );
+    function App() {
+        return (
+              <div className='testNameReact'>
+           <ul>
+               <li>One</li>
+               <li>One</li>
+               <li>One</li>
+               <li>One</li>
+           </ul>
+       </div>
+        );
+     
+    }
+
+
+   ReactDOM.render (
+       <App/>,
+       document.getElementById('bars')
+   )
 
 
 

@@ -133,4 +133,56 @@ header section .mainHeader .numberOfGoods p {
   height: auto;
   text-align: center;
 }
+
+.carouselInf {
+  padding: 0 !important;
+  -webkit-box-shadow: 0 0 27px #CECECE;
+          box-shadow: 0 0 27px #CECECE;
+}
+
+.carouselInf img {
+  height: 500px;
+}
+
+main {
+  padding: 100px 0;
+}
+
+main .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+main .container .row {
+  -webkit-box-shadow: 0 0 27px #CECECE;
+          box-shadow: 0 0 27px #CECECE;
+}
+
+footer .mainFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: white;
+  -webkit-box-shadow: 0 0 27px #CECECE;
+          box-shadow: 0 0 27px #CECECE;
+  width: 100%;
+  height: auto;
+  padding: 10px 25px;
+  margin: 100px 0 50px 0px;
+}
 /*# sourceMappingURL=style.css.map */

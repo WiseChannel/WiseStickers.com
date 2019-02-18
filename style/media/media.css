@@ -14,6 +14,15 @@
         display: none;
     }
 
+    nav {
+        display: none !important;
+    }
+
+    .mainHeader {
+        margin: 0 !important;
+        position: fixed;
+    }
+
 }
 
 
@@ -32,6 +41,15 @@
         display: none;
     }
 
+    nav {
+        display: none !important;
+    }
+
+    .mainHeader {
+        margin: 0 !important;
+        position: fixed;
+    }
+
 }
 
 
@@ -48,6 +66,15 @@
 
     #basketIcon {
         display: none;
+    }
+
+    nav {
+        display: none !important;
+    }
+
+    .mainHeader {
+        margin: 0 !important;
+        position: fixed;
     }
 
 }
